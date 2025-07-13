@@ -17,7 +17,7 @@ st.set_page_config(page_title="UAS Data Mining", layout="wide")
 st.sidebar.title("Menu Navigasi")
 page = st.sidebar.radio(
     "Pilih Fitur",
-    ["Klasifikasi Diabetes", "Clustering Gerai Kopi"]
+    ["Classification", "Clustering"]
 )
 
 st.title("Ujian Akhir Semester")
